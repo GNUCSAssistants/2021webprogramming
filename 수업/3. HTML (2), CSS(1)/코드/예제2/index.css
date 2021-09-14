@@ -1,0 +1,20 @@
+.test1 {
+  color: red;
+}
+
+.test2 {
+  font-weight: bold;
+}
+
+.test3,
+.test4 {
+  color: green;
+}
+
+.test {
+  color: pink;
+}
+
+.parent {
+  color: blue;
+}
