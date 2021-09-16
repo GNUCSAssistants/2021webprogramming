@@ -5,19 +5,3 @@
   color: tomato;
   text-align: justify;
 }
-
-/*margin model 연습*/
-.margin-test {
-  border: 1px solid black;
-  /* margin-top: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px; */
-  margin: 10px 10px 10px 10px;
-}
-
-.padding-test {
-  border: 1px solid black;
-  padding: 10px 10px 10px 10px;
-  background-color: tomato;
-}
