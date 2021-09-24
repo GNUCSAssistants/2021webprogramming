@@ -1,0 +1,43 @@
+.grandParent,
+.parent,
+.child {
+    border: 1px solid black;
+}
+
+/* relative 일 경우 */
+/* .child {
+    position: relative;
+    left: 100px;
+} */
+
+/* absolute case1: 부모가 relative 일 경우*/
+/* .parent {
+    position: relative;
+}
+.child {
+    position: absolute;
+    top: 50px;
+} */
+
+/* absolute case2: 부모가 static이면서 조부모가 static이 아닌 경우 */
+/* .grandParent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 50px;
+} */
+
+/* absolute case3: 부모에게 아무것도 지정하지 않았을 경우 */
+/* .child {
+    position: absolute;
+    top: 50px;
+} */
+
+/* fixed 연습 */
+/* .fixedChild {
+  position: fixed;
+  top: 0px;
+  background-color: black;
+} */

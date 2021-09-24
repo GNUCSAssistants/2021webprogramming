@@ -1,0 +1,14 @@
+.header,
+.nav,
+.main,
+.aside,
+.footer {
+    border: 1px solid black;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* grid-template-columns: 150px 1fr 1fr; */
+    /* grid-template-rows: 1fr 2fr 1fr; */
+}
