@@ -1,0 +1,13 @@
+.container {
+  height: 300px;
+  width: 400px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.column {
+    border: 1px solid black;
+}
