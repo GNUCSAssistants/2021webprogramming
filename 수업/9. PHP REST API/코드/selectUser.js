@@ -9,11 +9,11 @@ const getAllUser = async () => {
   }
 };
 
-const getUserByID = async () => {
+const getAddressByID = async () => {
   const nameInput = document.querySelector(".nameInput").value;
   if (nameInput) {
     try {
-      const response = await axios.post("./php/getUserByID.php", {
+      const response = await axios.post("./php/getAddressByID.php", {
         nameInput: nameInput,
       }); // 추후 수정
       if (response.data) {
