@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- axios -->
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.22.0/dist/axios.min.js"></script>
+  <script src="./selectUser.js"></script>
+
+  <title>select user</title>
+</head>
+
+<body>
+  <div class="allUser">
+    <h1>모든 유저의 정보를 가져옵니다.</h1>
+    <button onclick="getAllUser()">모든 유저 가져오기</button>
+  </div>
+  <div class="matchedUser">
+    <h1>이름과 일치하는 유저의 주소를 가져옵니다.</h1>
+    <input type="text" placeholder="이름" class="nameInput" />
+    <button onclick="getAddressByID()">이름과 일치하는 유저 주소 가져오기</button>
+  </div>
+</body>
+
+</html>
