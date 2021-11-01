@@ -1,6 +1,6 @@
 const getAllUser = async () => {
   try {
-    const response = await axios.get("./php/getAllUser.php"); // 추후 수정
+    const response = await axios.get("./php/getAllUser.php");
     if (response.data) {
       console.log(response.data);
     }
@@ -9,13 +9,13 @@ const getAllUser = async () => {
   }
 };
 
-const getAddressByID = async () => {
+const getAddressByName = async () => {
   const nameInput = document.querySelector(".nameInput").value;
   if (nameInput) {
     try {
-      const response = await axios.post("./php/getAddressByID.php", {
+      const response = await axios.post("./php/getAddressByName.php", {
         nameInput: nameInput,
-      }); // 추후 수정
+      });
       if (response.data) {
         console.log(response.data);
       } else {

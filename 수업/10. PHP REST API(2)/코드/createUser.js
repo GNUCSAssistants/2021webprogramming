@@ -6,7 +6,7 @@ const createUser = async () => {
       const response = await axios.post("./php/createUser.php", {
         nameInput: nameInput,
         addressInput: addressInput,
-      }); // 추후 수정
+      });
       if (response.data) {
         console.log(response.data);
       } else {
