@@ -1,0 +1,41 @@
+.ifNoData, .myOrderMain {
+    display: none;
+}
+
+.myOrderMain {
+    grid-template-rows: 100px 1fr 50px 50px;
+    min-height: 100vh;
+}
+
+.myOrderMain header .arrow_back {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.myOrderMain header h1 {
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.myOrderMain article {
+    margin-top: 10px;  
+    margin-left: 10px;
+    color:gray;
+    font-weight: bold;
+}
+
+.arrows, .buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.arrows .left {
+    margin-left:10px;
+}
+
+.arrows .right {
+    margin-right:10px;
+    text-align: right;
+}
